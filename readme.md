@@ -65,6 +65,8 @@ PasswordAuthentication no
 ###### 已写好了脚本：
 
 ```bash
-wget -O pub.sh https://fly97.coding.net/p/shell/d/shell/git/raw/master/rsa/id_rsa.sh && chmod +x pub.sh && bash pub.sh
+wget -O pub.sh https://cdn.jsdelivr.net/gh/wf09/rsa/id_rsa.sh 
+chmod +x pub.sh 
+bash pub.sh
 ```
 
