@@ -62,7 +62,7 @@ PasswordAuthentication no
 [root@host .ssh]$ service sshd restart
 ```
 
-###### 已写好了脚本：
+### 已写好了脚本：
 
 ```bash
 wget -O pub.sh https://cdn.jsdelivr.net/gh/wf09/rsa/id_rsa.sh 
