@@ -1,4 +1,13 @@
-**1. 制作密钥对**
+### 已写好了脚本：
+
+```bash
+bash <(curl -Lso- https://cdn.jsdelivr.net/gh/wf09/rsa/id_rsa.sh)
+
+```
+
+========================================================================
+
+1. 制作密钥对**
 
 首先在服务器上制作密钥对。首先用密码登录到你打算使用密钥登录的账户，然后执行以下命令：
 
@@ -60,13 +69,5 @@ PasswordAuthentication no
 
 ```bash
 [root@host .ssh]$ service sshd restart
-```
-
-### 已写好了脚本：
-
-```bash
-wget -O pub.sh https://cdn.jsdelivr.net/gh/wf09/rsa/id_rsa.sh 
-chmod +x pub.sh 
-bash pub.sh
 ```
 
